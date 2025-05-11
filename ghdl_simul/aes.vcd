@@ -1,0 +1,206 @@
+$date
+  Fri May 02 15:45:03 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module types_pkg $end
+$upscope $end
+$scope module top_tb $end
+$var reg 1 ! clk_tb $end
+$var reg 1 " start_tb $end
+$var reg 1 # busy_tb $end
+$var reg 128 $ plaintext_tb[127:0] $end
+$var reg 1 % valid_o_tb $end
+$var reg 128 & ciphertext_tb[127:0] $end
+$var reg 128 ' key_tb[127:0] $end
+$var reg 128 ( expected_ciphertext[127:0] $end
+$scope module dut $end
+$var reg 1 ) clk $end
+$var reg 1 * start $end
+$var reg 1 + busy $end
+$var reg 128 , plaintext[127:0] $end
+$var reg 1 - valid_o $end
+$var reg 128 . ciphertext_o[127:0] $end
+$var reg 128 / key[127:0] $end
+$var reg 128 0 ciphertext[127:0] $end
+$comment keysarray is not handled $end
+$var reg 4 1 round[3:0] $end
+$var reg 4 2 roundreg[3:0] $end
+$comment current_state is not handled $end
+$comment next_state is not handled $end
+$var reg 128 3 subbyte_in[127:0] $end
+$var reg 128 4 subbyte_out[127:0] $end
+$var reg 128 5 i_keyaddkey[127:0] $end
+$var reg 128 6 i_dataaddkey[127:0] $end
+$var reg 128 7 o_dataaddkey[127:0] $end
+$var reg 128 8 i_datashiftrows[127:0] $end
+$var reg 128 9 o_datashiftrows[127:0] $end
+$var reg 128 : i_datamixcolumn[127:0] $end
+$var reg 128 ; o_datamixcolumn[127:0] $end
+$var reg 1 < finished $end
+$scope module subbyte0 $end
+$var reg 8 = data_in[7:0] $end
+$var reg 8 > data_out[7:0] $end
+$upscope $end
+$scope module subbyte1 $end
+$var reg 8 ? data_in[7:0] $end
+$var reg 8 @ data_out[7:0] $end
+$upscope $end
+$scope module subbyte2 $end
+$var reg 8 A data_in[7:0] $end
+$var reg 8 B data_out[7:0] $end
+$upscope $end
+$scope module subbyte3 $end
+$var reg 8 C data_in[7:0] $end
+$var reg 8 D data_out[7:0] $end
+$upscope $end
+$scope module subbyte4 $end
+$var reg 8 E data_in[7:0] $end
+$var reg 8 F data_out[7:0] $end
+$upscope $end
+$scope module subbyte5 $end
+$var reg 8 G data_in[7:0] $end
+$var reg 8 H data_out[7:0] $end
+$upscope $end
+$scope module subbyte6 $end
+$var reg 8 I data_in[7:0] $end
+$var reg 8 J data_out[7:0] $end
+$upscope $end
+$scope module subbyte7 $end
+$var reg 8 K data_in[7:0] $end
+$var reg 8 L data_out[7:0] $end
+$upscope $end
+$scope module subbyte8 $end
+$var reg 8 M data_in[7:0] $end
+$var reg 8 N data_out[7:0] $end
+$upscope $end
+$scope module subbyte9 $end
+$var reg 8 O data_in[7:0] $end
+$var reg 8 P data_out[7:0] $end
+$upscope $end
+$scope module subbyte10 $end
+$var reg 8 Q data_in[7:0] $end
+$var reg 8 R data_out[7:0] $end
+$upscope $end
+$scope module subbyte11 $end
+$var reg 8 S data_in[7:0] $end
+$var reg 8 T data_out[7:0] $end
+$upscope $end
+$scope module subbyte12 $end
+$var reg 8 U data_in[7:0] $end
+$var reg 8 V data_out[7:0] $end
+$upscope $end
+$scope module subbyte13 $end
+$var reg 8 W data_in[7:0] $end
+$var reg 8 X data_out[7:0] $end
+$upscope $end
+$scope module subbyte14 $end
+$var reg 8 Y data_in[7:0] $end
+$var reg 8 Z data_out[7:0] $end
+$upscope $end
+$scope module subbyte15 $end
+$var reg 8 [ data_in[7:0] $end
+$var reg 8 \ data_out[7:0] $end
+$upscope $end
+$scope module shiftrowinst $end
+$var reg 128 ] data_in_sr[127:0] $end
+$var reg 128 ^ data_out_sr[127:0] $end
+$comment data_in_array is not handled $end
+$comment data_shifted is not handled $end
+$upscope $end
+$scope module mixcolumninst $end
+$var reg 128 _ data_in_mx[127:0] $end
+$var reg 128 ` data_out_mx[127:0] $end
+$comment dt_in_array is not handled $end
+$comment dt_out_array is not handled $end
+$upscope $end
+$scope module keyaddinst $end
+$var reg 128 a data_in[127:0] $end
+$var reg 128 b key[127:0] $end
+$var reg 128 c data_out[127:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+1"
+0#
+b01101011110000011011111011100010001011100100000010011111100101101110100100111101011111100001000101110011100100110001011100101010 $
+0%
+b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 &
+b00101011011111100001010100010110001010001010111011010010101001101010101111110111000101011000100000001001110011110100111100111100 '
+b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (
+1)
+1*
+0+
+b01101011110000011011111011100010001011100100000010011111100101101110100100111101011111100001000101110011100100110001011100101010 ,
+0-
+b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 .
+b00101011011111100001010100010110001010001010111011010010101001101010101111110111000101011000100000001001110011110100111100111100 /
+b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0
+b0000 1
+b0000 2
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 3
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 4
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 5
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 6
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 7
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 8
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 9
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU :
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ;
+0<
+bUUUUUUUU =
+bUUUUUUUU >
+bUUUUUUUU ?
+bUUUUUUUU @
+bUUUUUUUU A
+bUUUUUUUU B
+bUUUUUUUU C
+bUUUUUUUU D
+bUUUUUUUU E
+bUUUUUUUU F
+bUUUUUUUU G
+bUUUUUUUU H
+bUUUUUUUU I
+bUUUUUUUU J
+bUUUUUUUU K
+bUUUUUUUU L
+bUUUUUUUU M
+bUUUUUUUU N
+bUUUUUUUU O
+bUUUUUUUU P
+bUUUUUUUU Q
+bUUUUUUUU R
+bUUUUUUUU S
+bUUUUUUUU T
+bUUUUUUUU U
+bUUUUUUUU V
+bUUUUUUUU W
+bUUUUUUUU X
+bUUUUUUUU Y
+bUUUUUUUU Z
+bUUUUUUUU [
+bUUUUUUUU \
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ]
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ^
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU _
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU `
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU a
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU b
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU c
+#5000000
+0!
+0)
+#10000000
