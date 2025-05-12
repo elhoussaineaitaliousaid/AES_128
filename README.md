@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -AES-128-in-VHDL
 
 ## Description
@@ -79,3 +80,6 @@ ghdl -e suByte_tb
 ghdl -r suByte_tb --vcd=../ghdl_simul/sub.vcd
 gtkwave ../ghdl_simul/sub.vcd
 
+=======
+"# AES_128" 
+>>>>>>> a73c672e88725ae3400c10be42446f8d1fd69a5c
